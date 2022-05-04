@@ -1,0 +1,109 @@
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #a1c4fd;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(161, 196, 253, 1),
+    rgba(194, 233, 251, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(161, 196, 253, 1),
+    rgba(194, 233, 251, 1)
+  );
+}
+
+.bg-indigo {
+  background-color: #4835d4;
+}
+@media (min-width: 992px) {
+  .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+/*
+.form-outline {
+  position: relative;
+}
+
+.form-label {
+  position: absolute;
+  top: 0.8rem;
+  left: 1.8rem;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+}
+
+.form-control:hover {
+  border-color: blue;
+}
+.form-control:focus {
+  border-color: rgb(12, 12, 228);
+  outline: none !important;
+  box-shadow: 0 0 0px;
+}
+
+.form-control:focus ~ .form-label,
+.form-control:not(:placeholder-shown).form-control:not(:focus) ~ .form-label {
+  top: -0.7rem;
+  font-size: 0.9rem;
+  left: 0.8rem;
+  color: blue;
+}
+*/
+
+.form-outline2 {
+    position: relative;
+  }
+  
+  .form-label2 {
+    position: absolute;
+    top: 0.8rem;
+    left: 1.8rem;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  }
+  
+  .form-control2:hover {
+    border-color: white;
+  }
+  .form-control2:focus {
+    border-color: rgb(251, 251, 254);
+    outline: none !important;
+    box-shadow: 0 0 0px;
+  }
+  
+  .form-control2:focus ~ .form-label2,
+  .form-control2:not(:placeholder-shown).form-control2:not(:focus) ~ .form-label2 {
+    top: -0.7rem;
+    font-size: 0.9rem;
+    left: 0.8rem;
+    color: white;
+    background-color: rgb(45, 24, 208);
+  }
